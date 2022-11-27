@@ -453,7 +453,7 @@
 	font-family: 'Open Sans', sans-serif;
 	line-height: 1.6;
 	margin-bottom: 10px;
- 
+	text-decoration: none; 
 }
 
 .footer-get-email {
