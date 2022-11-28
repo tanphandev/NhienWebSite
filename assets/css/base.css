@@ -141,6 +141,11 @@ html{
 	text-decoration: none;
 }
 
+.product-modal__older-wrap {
+	display: flex;
+	justify-content: center;
+}
+
 .product-modal__older {
 	font-size: 1.9rem;
 	color: var(--white-color);

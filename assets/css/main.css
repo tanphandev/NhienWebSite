@@ -7,8 +7,8 @@
 }
 
 .header-backgound {
-	background:linear-gradient(180deg, rgba(1, 1, 1, 0.3), rgba(255, 255, 255, 0.3)), url(/assets/Image/background1.png);
-	background-attachment: fixed;
+	background-image:linear-gradient(180deg, rgba(1, 1, 1, 0.3), rgba(255, 255, 255, 0.3)), url(../Image/background.png);
+	background-attachment:fixed;
 	background-size: cover;
 	background-position:center top;
 	background-repeat: no-repeat;
@@ -192,7 +192,7 @@
 
 .content-intro__text {
 	align-self: center;
-	font-size: 1.3rem;
+	font-size: 1.5rem;
 	color: var(--text-color);
 	line-height: 1.2;
 	margin-top: 24px;
@@ -204,7 +204,7 @@
 }
 
 .content-product-background {
-	background-image:linear-gradient(180deg, rgba(1, 1, 1, 0.3), rgba(255, 255, 255, 0.3)), url(../Image/background2.png);
+	background-image:linear-gradient(180deg, rgba(1, 1, 1, 0.2), rgba(255, 255, 255, 0.2)), url(../Image/background2.png);
 	background-size: cover;
 	background-position: top;
 	background-repeat: no-repeat;
