@@ -45,7 +45,9 @@
 	.content-product__text {
 		width: 100%;
 	}
-
+	.content-intro__text {
+		text-align: center;
+	}
 	.header-contact {
 		padding: 0 20px;
 	}
@@ -224,7 +226,6 @@
 	.product-modal__close-icon {
 		font-size: 3rem;
 	}
-	}
 	.product-modal__heading::after {
 		transform: translateX(50%);
 	}
@@ -255,8 +256,5 @@
 	.content-intro__heading::after,
 	.content-feedback__text::after {
 		width: 200px;
-	}
-	.content-intro__text {
-		text-align: center;
 	}
 }

@@ -1,11 +1,3 @@
-.app {
-
-}
-
-.header {
-
-}
-
 .header-backgound {
 	background-image:linear-gradient(180deg, rgba(1, 1, 1, 0.3), rgba(255, 255, 255, 0.3)), url(../Image/background.png);
 	background-attachment:fixed;
@@ -29,7 +21,8 @@
 	/* margin: 0 12px; */
 }
 	
-.header-nav__item {
+.header-nav_link:hover {
+	color: rgb(205, 184, 142);
 }
 	
 .header-nav_link {
@@ -37,7 +30,6 @@
 	font-weight:600;
 	color: var(--white-color);
 	text-decoration: none;
-
 }
 
 .header-nav-logo {
@@ -124,7 +116,9 @@
 
 
 }
-
+.header-contact-address:hover {
+	color: rgb(205, 184, 142);
+}
 .header-contact-address {
 	font-size: 1.4rem;
 	color: var(--white-color);
@@ -191,6 +185,7 @@
 }
 
 .content-intro__text {
+	text-align: left;
 	align-self: center;
 	font-size: 1.5rem;
 	color: var(--text-color);
@@ -263,6 +258,18 @@
 	font-weight: 500;
 	padding-bottom: 26px;
 	text-align: center;
+}
+.product-item-wrap{
+	cursor: pointer;
+}
+
+
+.product-wrap {
+	transform:transfrom ease-in 2s;
+}
+
+.product-wrap:hover{
+	transform: translateY(-1px);
 }
 
 /* content order */
